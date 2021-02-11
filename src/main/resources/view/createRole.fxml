@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.controller.ControllerRole">
+   <children>
+      <TextField fx:id="txtName" layoutX="266.0" layoutY="130.0" />
+      <Button layoutX="300.0" layoutY="238.0" mnemonicParsing="false" onAction="#pressCreate" text="Save">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Text layoutX="205.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Label fx:id="status" layoutX="70.0" layoutY="200.0" prefHeight="25.0" prefWidth="244.0" />
+   </children>
+</AnchorPane>

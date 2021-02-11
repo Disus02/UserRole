@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.controller.ControllerUserRole">
+   <children>
+      <ComboBox fx:id="comboUser" layoutX="123.0" layoutY="60.0" prefWidth="150.0" />
+      <ComboBox fx:id="comboRole" layoutX="123.0" layoutY="223.0" prefWidth="150.0" />
+      <Text layoutX="39.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберети User:" />
+      <Text layoutX="39.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите Role:" />
+      <DatePicker fx:id="pickedData" layoutX="384.0" layoutY="105.0" />
+      <Text layoutX="288.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите Дату:" />
+      <Button layoutX="396.0" layoutY="276.0" mnemonicParsing="false" onAction="#pressCreate" text="save" />
+   </children>
+</AnchorPane>
